@@ -115,7 +115,6 @@
 // git add -A начать следить за фа1лами и изменениями в них
 // git commit -a -m'text'
 // git log Для просмотра всех commit
-// dectop
 
 
 
