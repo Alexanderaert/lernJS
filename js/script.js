@@ -130,3 +130,34 @@
 
 // Получение данных по SSH
 
+
+
+//// Урок 20
+
+// if (4 == 9){
+//    console.log('Ok!');
+// } else{
+//    console.log('error');
+// }
+
+// const num = 50;
+
+// if (num < 40){
+//    console.log('Слишком мало');
+// } else if (num > 100){
+//    console.log('Слишком много');
+// } else{
+//    console.log('Ok!');
+// }
+
+// (num === 50) ? console.log('Ok!') : console.log('error');
+
+// switch (num) {
+//    case 48: console.log('Неверно!');
+//    break;
+
+//    case 50: console.log('Попали');
+//    break;
+
+//    default: console.log('Не попал!');
+// }
