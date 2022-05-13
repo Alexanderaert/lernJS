@@ -199,3 +199,44 @@
 //       continue; // Пропускает значение
 //    }
 // }
+
+
+
+//// Урок 23
+
+// let str = '';
+
+// loop1:
+// for (let i = 0; i < 5; i++) {
+//   if (i === 1) {
+//     continue loop1;
+//   }
+//   str = str + i;
+// }
+
+// console.log(str);
+
+// let i, j;
+
+// loop1:
+// for (i = 0; i < 3; i++) {      //Первый цикл, обозначенный меткой "loop1"
+//    loop2:
+//    for (j = 0; j < 3; j++) {   //Второй цикл, обозначенный меткой "loop2"
+//       if (i === 1 && j === 1) {
+//          continue loop1;
+//       }
+//       console.log('i = ' + i + ', j = ' + j);
+//    }
+// }
+
+// let result = '';
+// const length = 8;
+
+// for (let i = 1; i < length; i++ ){
+//    for(let j = 0; j < i; j++){
+//       result += '*';
+//    }
+//    result += '\n';
+// }
+
+// console.log(result);
