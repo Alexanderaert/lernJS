@@ -180,22 +180,22 @@
 
 //// Урок 22
 
-let num = 50;
+// let num = 50;
 
-while(num <= 55) {
-   console.log(num);
-   num++;
-}
+// while(num <= 55) {
+//    console.log(num);
+//    num++;
+// }
 
-do{
-   console.log(num);
-   num++;
-}
-while (num < 55);
+// do{
+//    console.log(num);
+//    num++;
+// }
+// while (num < 55);
 
-for( let i = 0; i < 55; i++){
-   if(i == 6){
-      // break; отсанавливает цикл
-      continue; // Пропускает значение
-   }
-}
+// for( let i = 0; i < 55; i++){
+//    if(i == 6){
+//       // break; отсанавливает цикл
+//       continue; // Пропускает значение
+//    }
+// }
