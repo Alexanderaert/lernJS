@@ -166,12 +166,36 @@
 
 //// Урок 21
 
-const humburger = 3;
-const fries = 0;
-const cola = 0;
+// const humburger = 3;
+// const fries = 0;
+// const cola = 0;
 
-if (humburger === 3 || fries || cola){
-   console.log('Все довольны!');
-} else {
-   console.log('Уходим!');
+// if (humburger === 3 || fries || cola){
+//    console.log('Все довольны!');
+// } else {
+//    console.log('Уходим!');
+// }
+
+
+
+//// Урок 22
+
+let num = 50;
+
+while(num <= 55) {
+   console.log(num);
+   num++;
+}
+
+do{
+   console.log(num);
+   num++;
+}
+while (num < 55);
+
+for( let i = 0; i < 55; i++){
+   if(i == 6){
+      // break; отсанавливает цикл
+      continue; // Пропускает значение
+   }
 }
