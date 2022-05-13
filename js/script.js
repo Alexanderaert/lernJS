@@ -161,3 +161,17 @@
 
 //    default: console.log('Не попал!');
 // }
+
+
+
+//// Урок 21
+
+const humburger = 3;
+const fries = 0;
+const cola = 0;
+
+if (humburger === 3 || fries || cola){
+   console.log('Все довольны!');
+} else {
+   console.log('Уходим!');
+}
