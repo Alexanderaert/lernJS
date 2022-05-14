@@ -327,3 +327,36 @@
 
 // function doNothing(){};
 // console.log(doNothing() === undefined); // Вернет true
+
+
+//// Урок 28
+
+// const str = 'text';
+// const arr = [1, 2, 3];
+
+// console.log(str.length);
+// console.log(arr.length);
+// console.log(str[2]);
+
+// console.log(str.toUpperCase()); // Переводит текст в вверхни1 регистр
+// console.log(str.toLowerCase()); // Нижни1 регистр;
+
+// let fruit = 'Some fruit';
+// console.log(fruit.indexOf('fruit')); // ПОказывает с какого значение начинается разыскиваемое значение, поиск подстроки
+
+// const logg = "hello world";
+// console.log(logg.slice(6, 11)); // отрезает от и до какого элемента
+// console.log(logg.substring(6, 11)); //
+
+// console.log(logg.substr(6, 5)); // первое значение с какого второе сколько символов
+
+// const nam = 12.2;
+// console.log(Math.round(nam)); //Округление до ближа1шего целого
+
+// const text = "12.2px";
+// console.log(parseInt(text)); //Превращает строку в цифру и уберает все лишнее
+// console.log(parseFloat(text)); //Возвращает из строки цифры и сохраняет плаваю=щую точку
+
+
+
+
