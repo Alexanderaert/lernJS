@@ -354,6 +354,7 @@
 // console.log(Math.round(nam)); //Округление до ближа1шего целого
 
 // const text = "12.2px";
+// console.log(Number.isInteger(finLength)); //Проверяет на наличие плавающеё запято1 
 // console.log(parseInt(text)); //Превращает строку в цифру и уберает все лишнее
 // console.log(parseFloat(text)); //Возвращает из строки цифры и сохраняет плаваю=щую точку
 
