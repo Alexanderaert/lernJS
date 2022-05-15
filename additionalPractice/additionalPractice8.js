@@ -25,28 +25,37 @@ function getTimeFromMinutes(time) {
 
 getTimeFromMinutes(100);
 
-// Место для второй задачи
-function findMaxNumber(one, two, three, fore) {
+// // Место для второй задачи
+// function findMaxNumber(one, two, three, fore) {
    
-   const arrNumber = [one, two, three, fore];
+//    const arrNumber = [one, two, three, fore];
 
-   let element = arrNumber[0];
+//    let element = arrNumber[0];
 
-   for (let i = 0; i < arrNumber.length; i++){
-      if (typeof(arrNumber[i]) == 'number'){
+//    for (let i = 0; i < arrNumber.length; i++){
+//       if (typeof(arrNumber[i]) == 'number'){
          
-         if (arrNumber[i] >= element){
-            element = arrNumber[i];
-         }
+//          if (arrNumber[i] >= element){
+//             element = arrNumber[i];
+//          }
 
-         if(i == arrNumber.length - 1){
-            return element;
-         }
+//          if(i == arrNumber.length - 1){
+//             return element;
+//          }
          
-      } else {
-         return 0;
-      }
+//       } else {
+//          return 0;
+//       }
+//    }
+// }
+
+function findMaxNumber(one, two, three, fore) {
+   if(typeof(one) != 'number' || typeof(two) != 'number' || typeof(three) != 'number' || typeof(fore) != 'number'){
+      return 0;
+   } else {
+      return Math.max(one, two, three, fore);
    }
 }
 
+console.log(findMaxNumber(3,15,79,45));
 
