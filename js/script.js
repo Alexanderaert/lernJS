@@ -360,8 +360,35 @@
 
 
 
-//Урок 30 метод trim для строк позволяет убрать все пробелы вначале и в конце строки
+////Урок 30 метод trim для строк позволяет убрать все пробелы вначале и в конце строки
 
-let str = '    ds';
-str.trim();
+// let str = '    ds';
+// str.trim();
 
+
+//// Урок 31 Callback- функции
+
+// function first(){
+//    //Do something
+//    setTimeout(function(){
+//       console.log(1);
+//    }, 500);
+// }
+
+// function second() {
+//    console.log(2);
+// }
+
+// first();
+// second();
+
+// function learmJS(lang, callback){
+//    console.log(`Я учу ${lang}`);
+//    callback();
+// }
+
+// function done(){
+//    console.log('Я прошел этот урок');
+// }
+
+// learmJS('JavaScript', done);
