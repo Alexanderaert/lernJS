@@ -392,3 +392,48 @@
 // }
 
 // learmJS('JavaScript', done);
+
+
+////Урок 32 Объекты
+
+const obj = {
+   name: 'test',
+   width: 1024,
+   height: 1024,
+   colors: {
+      border: 'black',
+      bg: 'red'
+   },
+   makeTest: function() { // Создание функции в объектк называется методом
+      console.log('Test');
+   }
+};
+
+// console.log(obj.name); // Ображение через ключь к значению в объекте
+
+// delete obj.name; //Удаляет значение из объекта
+// console.log(obj);
+
+
+// for in Работает только для объекта
+
+// let counter = 0;
+// for (let key in obj){
+//    if (typeof(obj[key]) === 'object'){
+//       for ( let i in obj[key]){
+//          console.log(`Сво1ства ${i} имеет значение ${obj[key][i]}`);
+//          counter ++;
+//       }
+//    } else {
+//       console.log(`Сво1ства ${key} имеет значение ${obj[key]}`);
+//       counter ++;
+//    }
+// }
+// console.log(counter);
+// console.log(Object.keys(obj).length); // Создает массив из ключе1 объекта для подсчета элементов
+
+// obj.makeTest(); // Вызов метода
+
+// // Деструктиризация объекта
+// const {border, bg} = obj['colors'];
+// console.log(border);
