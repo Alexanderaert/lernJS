@@ -478,3 +478,93 @@
 
 
 
+////Урок 33 Передача данных по ссылке или по значению 
+
+// let a = 5,
+//     b = a;
+
+//    b = b + 5;
+
+//    console.log(b);
+
+
+//    const obj = {
+//        a: 5,
+//        b: 1,
+//    }
+
+//    // const copy = obj; // ссылка на существующи1 объект
+//    // copy.a = 10;
+
+//    function copy(mainObj){
+//       let objCopy = {};
+//       let key;
+
+//       for(key in mainObj){
+//          objCopy[key] = mainObj[key];
+//       }
+
+//       return objCopy;
+//    }
+//    console.log(copy);
+
+// const numbers = {
+//    a: 2,
+//    b: 5,
+//    c: {
+//       x:5,
+//       y:7
+//    }
+// };
+
+// const newNumbers = copy(numbers);
+// newNumbers.a = 10;
+
+// newNumbers.c.x = 10;
+
+// console.log(newNumbers);
+// console.log(numbers);
+
+// const add = {
+//    d: 17,
+//    e: 20
+// };
+
+// console.log(Object.assign({}, add)); // Объедиение объектов в 1
+
+
+// const oldArray = ['a', 'b', 'c'];
+// const newArray = oldArray.slice(); // СОздаем копию массива
+
+// newArray[1] = 'add';
+// console.log(oldArray);
+// console.log(newArray);
+
+// const video = ['youTube', 'video', 'rutube'],
+// blogs = ['wordpress', 'livejournal', 'blogger'],
+// internet = [...video, ...blogs, 'vk', 'telegram']; // ... оператор разворота
+
+// console.log(internet);
+
+
+// function log(a, b, c){
+//    console.log(a);
+//    console.log(b);
+//    console.log(c);
+// }
+
+// const num = [2, 5, 7];
+
+// log(...num);
+
+// const array = ['a', 'b'];
+
+// const nawArray = [...array];
+
+// const d = {
+//    one: 1,
+//    two: 2
+// };
+
+// const newObj = {...d};
+
