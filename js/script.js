@@ -396,18 +396,18 @@
 
 ////Урок 32 Объекты
 
-const obj = {
-   name: 'test',
-   width: 1024,
-   height: 1024,
-   colors: {
-      border: 'black',
-      bg: 'red'
-   },
-   makeTest: function() { // Создание функции в объектк называется методом
-      console.log('Test');
-   }
-};
+// const obj = {
+//    name: 'test',
+//    width: 1024,
+//    height: 1024,
+//    colors: {
+//       border: 'black',
+//       bg: 'red'
+//    },
+//    makeTest: function() { // Создание функции в объектк называется методом
+//       console.log('Test');
+//    }
+// };
 
 // console.log(obj.name); // Ображение через ключь к значению в объекте
 
@@ -437,3 +437,44 @@ const obj = {
 // // Деструктиризация объекта
 // const {border, bg} = obj['colors'];
 // console.log(border);
+
+
+////Урок 32 Массивы
+
+// const arr = [1, 2, 3, 6, 8];
+
+// arr[99] = 0;
+
+// console.log(arr.length);
+
+// arr.pop(); // Удаляет последни1 элемент массива
+// arr.push(10); // Добовляет последни1 элемент массива
+
+// for (let i = 0; i < arr.length ; i++ ){
+//    console.log(arr[i]);
+// }
+
+// for ( let value of arr){
+//    console.log(value);
+// }
+
+// console.log(arr);
+
+// arr.forEach(function(value, i, arr){
+//    console.log(`${i}: ${value} внутри массива ${arr}`);
+// });
+
+// const str = prompt('', '');
+// const product = str.split(', ');// делит строку по разделителю на массив
+// arr.sort(compareNum); // Сортировка элементы массива и строк
+
+// console.log(arr);
+// function compareNum(a, b){
+//    return a - b;
+// }
+
+
+// console.log(product).join('; ');// Объеденяет массив в строку через разделитель
+
+
+
