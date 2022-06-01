@@ -439,7 +439,7 @@
 // console.log(border);
 
 
-////Урок 32 Массивы
+////Урок 33 Массивы
 
 // const arr = [1, 2, 3, 6, 8];
 
@@ -478,7 +478,7 @@
 
 
 
-////Урок 33 Передача данных по ссылке или по значению 
+////Урок 34 Передача данных по ссылке или по значению 
 
 // let a = 5,
 //     b = a;
@@ -568,3 +568,24 @@
 
 // const newObj = {...d};
 
+////Урок 36 Основы ООП
+
+let str = 'some';
+let strObj = new String(str);
+
+// console.log(typeof(str));
+// console.log(typeof(strObj));
+
+const soldier = {
+   health: 400,
+   armor: 100,
+   sayHello: function(){
+      console.log("hello");
+   },
+};
+
+const jonh = Object.create(soldier); // Создание протатипных связе1
+
+// Object.setPrototypeOf(jonh, soldier); // наследование протатипа
+
+jonh.sayHello();
