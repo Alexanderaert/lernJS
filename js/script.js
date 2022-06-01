@@ -570,22 +570,22 @@
 
 ////Урок 36 Основы ООП
 
-let str = 'some';
-let strObj = new String(str);
+// let str = 'some';
+// let strObj = new String(str);
 
-// console.log(typeof(str));
-// console.log(typeof(strObj));
+// // console.log(typeof(str));
+// // console.log(typeof(strObj));
 
-const soldier = {
-   health: 400,
-   armor: 100,
-   sayHello: function(){
-      console.log("hello");
-   },
-};
+// const soldier = {
+//    health: 400,
+//    armor: 100,
+//    sayHello: function(){
+//       console.log("hello");
+//    },
+// };
 
-const jonh = Object.create(soldier); // Создание протатипных связе1
+// const jonh = Object.create(soldier); // Создание протатипных связе1
 
-// Object.setPrototypeOf(jonh, soldier); // наследование протатипа
+// // Object.setPrototypeOf(jonh, soldier); // наследование протатипа
 
-jonh.sayHello();
+// jonh.sayHello();
