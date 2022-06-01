@@ -27,7 +27,7 @@ function showExperience(plan) {
    const {exp} = plan['skills'];
    return exp;
 }
-// console.log(showExperience(personalPlanPeter));
+console.log(showExperience(personalPlanPeter));
 
 function showProgrammingLangs(plan) {
    let str = '';

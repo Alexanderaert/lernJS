@@ -533,3 +533,38 @@
 // console.log(Object.assign({}, add)); // Объедиение объектов в 1
 
 
+// const oldArray = ['a', 'b', 'c'];
+// const newArray = oldArray.slice(); // СОздаем копию массива
+
+// newArray[1] = 'add';
+// console.log(oldArray);
+// console.log(newArray);
+
+// const video = ['youTube', 'video', 'rutube'],
+// blogs = ['wordpress', 'livejournal', 'blogger'],
+// internet = [...video, ...blogs, 'vk', 'telegram']; // ... оператор разворота
+
+// console.log(internet);
+
+
+// function log(a, b, c){
+//    console.log(a);
+//    console.log(b);
+//    console.log(c);
+// }
+
+// const num = [2, 5, 7];
+
+// log(...num);
+
+// const array = ['a', 'b'];
+
+// const nawArray = [...array];
+
+// const d = {
+//    one: 1,
+//    two: 2
+// };
+
+// const newObj = {...d};
+
