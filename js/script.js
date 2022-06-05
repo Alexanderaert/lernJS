@@ -674,5 +674,3 @@
 // const c3 = increment();
 
 // console.log(c1, c2, c3);
-
-
