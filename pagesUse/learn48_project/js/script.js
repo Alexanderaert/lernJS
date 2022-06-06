@@ -28,18 +28,17 @@ document.addEventListener('DOMContentLoaded', () => { // Дожидается з
       ]
   };
   
-  const adv = document.querySelectorAll('.promo__adv img');
-  adv.forEach(element => {
-     element.remove();
-  });
+   const adv = document.querySelectorAll('.promo__adv img');
+   const submit = document.querySelector('button');
+   const list = document.querySelector('.promo__interactive-list');
+   const {movies} = movieDB;
   
-  document.querySelector('.promo__genre').textContent = 'драма';
-  document.querySelector('.promo__bg').style.cssText = ('background: url("img/bg.jpg"); background-size: cover;');
-  
-  
-  const list = document.querySelector('.promo__interactive-list');
-  
-  const {movies} = movieDB;
+   document.querySelector('.promo__genre').textContent = 'драма';
+   document.querySelector('.promo__bg').style.cssText = ('background: url("img/bg.jpg"); background-size: cover;');
+
+   adv.forEach(element => {
+      element.remove();
+   });
   
   function moviesUpdate(data) {
      list.innerHTML = "";
@@ -51,13 +50,8 @@ document.addEventListener('DOMContentLoaded', () => { // Дожидается з
            </li>`;
      });
      removeItem();
-  }
-  
-  moviesUpdate(movies);
-  
-  
-  
-  const submit = document.querySelector('button');
+   }
+   
   
   submit.addEventListener('click', function(event){
      event.preventDefault();
@@ -73,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => { // Дожидается з
         }
   
         if(valueInput.length > 21){
-           valueInput = valueInput.slice(0, 20) + '...';
+           valueInput = valueInput.slice(0, 22) + '...';
         }
   
         movieDB.movies.push(valueInput.toUpperCase());
@@ -105,6 +99,10 @@ document.addEventListener('DOMContentLoaded', () => { // Дожидается з
         });
      });
   }
+
+
+
+  moviesUpdate(movies);
 });
 
 
