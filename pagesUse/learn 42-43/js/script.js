@@ -4,7 +4,7 @@ const box = document.getElementById('box'); // Получает элемент �
 const btns = document.getElementsByTagName('button'); // Получаяет элемент по Teg
 const circles = document.getElementsByClassName('circle'); // Получает элемент по классу
 const wrapper = document.querySelector('.wrapper');
-const hearts = wrapper.querySelectorAll('.heart'); // получает элемент по селектору
+const hearts = wrapper. ('.heart'); // получает элемент по селектору
 const oneHeart = wrapper.querySelector('.heart'); // вызывает первы1 элемент
 
 
